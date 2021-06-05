@@ -2,7 +2,7 @@
     "name": "newsletter_kidsloop",
     "version": "1.0.0",
     "description": "",
-    "main": "Gruntfile.js",
+    "main": "gruntfile.js",
     "dependencies": {
         "grunt": "^1.4.1",
         "grunt-browser-sync": "*",
@@ -17,7 +17,7 @@
         "grunt-string-replace": "^1.0.0",
         "grunt-usemin": "^2.6.2",
         "jit-grunt": "*",
-        "node-sass": "^4.9",
+        "node-sass": "*",
         "swiper": "^6.5.9"
     },
     "devDependencies": {

@@ -1,4 +1,3 @@
-
 'use strict';
 
 const nodesass = require('node-sass');
@@ -8,8 +7,8 @@ module.exports = function (grunt) {
         useminPrepare: 'grunt-usemin'
     });
     grunt.initConfig({
-        devDir: '../www-dev',
-        distDir: '../www',
+        devDir: './src',
+        distDir: './dist',
         tempDir: '<%= devDir %>/.tmp',
         // tempDir: '../.tmp',
 
@@ -272,6 +271,4 @@ module.exports = function (grunt) {
         // 'uncss',
         'cacheBust',
 	]);
-
-
 };
