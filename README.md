@@ -1,18 +1,28 @@
-#HOW TO RUN PROJECT
+# How to run
 
-cd /tools
-- run `npm install`
-- run `grunt dev` to start
-- run `grunt build` to build
+Install `grunt`
 
+```
+$ npm install -g grunt-cli
+```
 
-#HOW TO ADD A MODULE
+Install project
+
+```
+$ npm install
+$ grunt dev # to start
+$ grunt build # to build
+```
+
+# How to add a module
 
 Use this command and update data-attribute
 
-`<!-- @import partials/module_name.html data={"attribute_name": "attribute_content"} -->`
+```
+<!-- @import partials/module_name.html data={"attribute_name": "attribute_content"} -->
+```
 
-#HOW TO CREATE A NEWSLETTER
+# How to create a newsletter
 
 Create a new file with this format -> `YY/MM` + `lang` + `.html`
 
