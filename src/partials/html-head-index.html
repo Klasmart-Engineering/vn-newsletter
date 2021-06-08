@@ -1,0 +1,148 @@
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1, minimum-scale=1.0, maximum-scale=1.0">
+    <title><%= title %></title>
+
+    <style type="text/css">
+        /* CLIENT-SPECIFIC STYLES */
+        body, table, td, a{-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;} /* Prevent WebKit and Windows mobile changing default text sizes */
+        table, td{mso-table-lspace: 0pt; mso-table-rspace: 0pt;} /* Remove spacing between tables in Outlook 2007 and up */
+        img{-ms-interpolation-mode: bicubic;} /* Allow smoother rendering of resized image in Internet Explorer */
+
+        /* RESET STYLES */
+        img{border: 0; height: auto; line-height: 100%; outline: none; text-decoration: none;}
+        table{border-collapse: collapse !important;}
+        body{width: 100% !important; margin: 0 auto !important; padding: 0 !important;}
+
+        /* iOS BLUE LINKS */
+        a[x-apple-data-detectors] {
+            color: inherit !important;
+            text-decoration: none !important;
+            font-size: inherit !important;
+            font-family: inherit !important;
+            font-weight: inherit !important;
+            line-height: inherit !important;
+        }
+
+        html, body {
+            height: 100%;
+            width: 100%;
+            font-size: 14px;
+            line-height: 28px;
+            color: #0088cc;
+            margin: 0 auto;
+            padding: 0;
+        }
+
+        * {
+            box-sizing: border-box;
+        }
+
+        table, tr, td {
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        a:visited, a {
+            text-decoration: none;
+            color: #0088cc;
+        }
+
+        table {
+            border-spacing: 0;
+            table-layout: fixed;
+            margin: 0 auto;
+        }
+
+        img {
+            width: 100%;
+            -ms-interpolation-mode: bicubic;
+        }
+
+        p {
+            margin: 0;
+        }
+
+        h1, h2, h3, h4, h5, h6, p {
+            margin-top: 0 !important;
+            line-height: 150%;
+        }
+
+        p {
+            line-height: 200%;
+        }
+
+        ul, ol {
+            margin: 0 0 1rem;
+            padding: 0;
+            list-style-position: inside;
+            line-height: 175%;
+        }
+
+        h1 {
+            margin-bottom: 20px;
+        }
+
+        h2 {
+            display: inline-block;
+            vertical-align: top;
+            margin-bottom: 0;
+            padding: 0 30px;
+            line-height: 40px;
+            background-color: #0088cc;
+            color: #fff;
+            border-radius: 10px;
+        }
+
+        .card-list {
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            padding: 0;
+            margin: 20px -10px;
+            list-style: none;
+        }
+
+        .card-item {
+            width: 25%;
+            padding: 0 10px;
+            margin-bottom: 40px;
+            transition: all 0.4s;
+        }
+
+        .card-item:hover {
+            transform: translateY(-5px);
+            -webkit-transform: translateY(-5px);
+            -moz-transform: translateY(-5px);
+            -o-transform: translateY(-5px);
+        }
+
+        .card-item .image-wrap {
+            position: relative;
+            border-radius: 10px;
+            overflow: hidden;
+            margin-bottom: 10px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.15);
+        }
+
+        .card-item .image-wrap:before {
+            content: '';
+            display: block;
+            padding-top: calc(9/16 * 100%);
+        }
+
+        .card-item .image-wrap img {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        @media screen and (max-width: 1024px){
+
+        }
+    </style>
+</head>
