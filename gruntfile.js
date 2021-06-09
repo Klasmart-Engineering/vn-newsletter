@@ -187,8 +187,8 @@ module.exports = function (grunt) {
                     src: [
                         // '<%= tempDir %>/css/style.css',
                         // '<%= devDir %>/js/**/*',
-                        // '<%= devDir %>/**/*.html'
                         // '<%= tempDir %>/js/**/*',
+                        '<%= devDir %>/**/*.html',
                         '<%= tempDir %>/**/*.html'
                     ]
 				},
